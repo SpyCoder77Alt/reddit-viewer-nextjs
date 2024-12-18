@@ -17,7 +17,7 @@ export function Comment({ comment, depth = 0 }: CommentProps) {
       className={`pl-4 ${depth > 0 ? 'border-l border-gray-200 ml-4' : ''}`}
     >
       <div className="bg-white rounded-lg p-4 mb-2 shadow-sm">
-        <div className="flex items-center gap-2 text-sm text-gray-600 mb-2">
+        <div className="flex items-center gap-2 text-sm text-slate-950 mb-2">
           <span className="font-medium">{comment.author}</span>
           <span>•</span>
           <span>{formatTimestamp(comment.created_utc)}</span>
