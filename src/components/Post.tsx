@@ -13,7 +13,7 @@ export function Post({ post }: PostProps) {
     <div className="bg-white rounded-lg p-6 shadow-md mb-4">
       <h1 className="text-2xl font-bold mb-2">{post.title}</h1>
       
-      <div className="flex items-center gap-2 text-sm text-gray-600 mb-4">
+      <div className="flex items-center gap-2 text-sm text-slate-950 mb-4">
         <span className="font-medium">{post.author}</span>
         <span>•</span>
         <span>{formatTimestamp(post.created_utc)}</span>
