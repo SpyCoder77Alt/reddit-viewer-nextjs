@@ -27,7 +27,7 @@ export function Comment({ comment, depth = 0 }: CommentProps) {
           <MarkdownContent content={comment.body} />
         </div>
         
-        <div className="flex items-center gap-4 text-sm text-gray-600">
+        <div className="flex items-center gap-4 text-sm text-slate-950">
           <div className="flex items-center gap-1">
             <ArrowBigUp className="w-4 h-4" />
             <span>{comment.score}</span>
