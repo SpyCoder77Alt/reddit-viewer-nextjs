@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.data {
-    color: black; /* or any desired color */
+*:not(button) {
+    color: black !important; /* or any desired color */
 }
   
