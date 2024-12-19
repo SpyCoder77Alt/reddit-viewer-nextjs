@@ -23,7 +23,7 @@ export function Comment({ comment, depth = 0 }: CommentProps) {
           <span>{formatTimestamp(comment.created_utc)}</span>
         </div>
         
-        <div className="mb-2">
+        <div className="mb-2 text-slate-950">
           <MarkdownContent content={comment.body} />
         </div>
         
