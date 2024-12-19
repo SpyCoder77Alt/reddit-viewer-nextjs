@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+.data {
     color: black; /* or any desired color */
-  }
+}
   
