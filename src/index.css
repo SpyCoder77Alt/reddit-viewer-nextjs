@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-*:not(button) {
+*:not(button, svg) {
     color: black !important; /* or any desired color */
 }
   
