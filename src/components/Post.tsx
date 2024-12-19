@@ -25,7 +25,7 @@ export function Post({ post }: PostProps) {
         </div>
       )}
       
-      <div className="flex items-center gap-6 text-sm text-gray-600">
+      <div className="flex items-center gap-6 text-sm text-slate-950">
         <div className="flex items-center gap-1">
           <ArrowBigUp className="w-5 h-5" />
           <span className="font-medium">{post.score}</span>
