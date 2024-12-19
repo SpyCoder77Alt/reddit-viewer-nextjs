@@ -24,7 +24,7 @@ export function Comment({ comment, depth = 0 }: CommentProps) {
         </div>
         
         <div className="mb-2 text-slate-950">
-          <MarkdownContent content={comment.body} />
+          <MarkdownContent className="data" content={comment.body} />
         </div>
         
         <div className="flex items-center gap-4 text-sm text-slate-950">
